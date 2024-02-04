@@ -1,0 +1,36 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: black;
+    font-family: "Raleway", sans-serif;;
+}
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+    height: 605px;
+
+}
+.banner .banner-content{
+    text-align: center;
+    color: white;
+    max-width: 400px;
+}
+.banner-content h1{
+    background-image: linear-gradient(rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+}
+button{
+    background-image: linear-gradient(rgba(59, 161, 205, 1), rgba(21, 114, 183, 1));
+    background-clip: text;
+    color: transparent;
+    border-image: linear-gradient(rgba(59, 161, 205, 1), rgba(21, 114, 183, 1)) 1;
+    border-width: 2px;
+    border-style: solid;
+    padding: 19px 91px 19px 91px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-transform: uppercase;
+}
