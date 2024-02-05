@@ -1,6 +1,9 @@
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+:root{
+    --border-cor-azul: rgba(51, 168, 219, 0.502);
+    --background-black: rgba(0, 0, 0, 0.2);
+}
 body {
     background-color: black;
     font-family: "Raleway", sans-serif;;
@@ -12,7 +15,7 @@ body {
     background-repeat: no-repeat;
     height: 600px;
     padding-top: 60px;
-    border-bottom: 1px solid #33A8DB80;
+    border-bottom: 1px solid var(--border-cor-azul);
 
 }
 .banner .banner-content{
@@ -22,7 +25,7 @@ body {
     margin: auto;
 }
 .logo img{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: var(--background-black);
     border-radius: 50%;
     padding: 25px;
     margin-bottom: 20px;
@@ -52,4 +55,39 @@ button{
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+#course-content{
+    padding-top: 60px;
+    text-align: center;
+    margin: auto;
+    width: 800px;
+}
+#course-content h2{
+    color: rgba(51, 168, 219, 1);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+#course-content p{
+    padding-top: 25px;
+    font-size: 1rem;
+}
+.modules-list{
+    margin-bottom: 90px;
+}
+.modules-list .module{
+    margin-top: 24px;
+    padding: 19px 0;
+    border: 1px solid rgba(51, 168, 219, 1);
+    width: 535px;
+    border-radius: 57px;
+    background-color: rgba(37, 37, 37, 1);
+    /* falta centralizar os campos */
+}
+.modules-list .module span{
+    color: rgba(51, 168, 219, 1);
+}
+#transform-world{
+    border-top: 1px solid var(--border-cor-azul);
 }
