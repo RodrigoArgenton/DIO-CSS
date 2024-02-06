@@ -14,7 +14,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
-    padding-top: 40px;
+    padding-top: 60px;
     border-bottom: 1px solid var(--border-cor-azul);
 
 }
@@ -24,11 +24,19 @@ body {
     width: 600px;
     margin: auto;
 }
-.logo img{
+.logo{
     background-color: var(--background-black);
     border-radius: 50%;
-    padding: 25px;
-    margin-bottom: 20px;
+    padding: 19px;
+    height: 228px;
+    width: 228px;
+    margin: auto;
+}
+.logo img{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .banner-content h1{
     background-image: linear-gradient(rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
@@ -40,7 +48,7 @@ body {
     margin-bottom: 20px;
 }
 .banner-content p{
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     margin-bottom: 20px;
 }
 button{
@@ -50,7 +58,7 @@ button{
     border-image: linear-gradient(rgba(59, 161, 205, 1), rgba(21, 114, 183, 1)) 1;
     border-width: 2px;
     border-style: solid;
-    padding: 19px 60px;
+    padding: 16px 32px;
     font-weight: 900;
     font-size: 1rem;
     text-transform: uppercase;
@@ -117,11 +125,12 @@ button{
     letter-spacing: 4px;
     color: rgb(51, 168, 219);
     padding-bottom: 10px;
+    font-size: 2rem;
 }
 footer{
     border-top: 1px solid white;
     text-align: center;
-    padding: 20px;
+    padding: 60px;
     margin: auto;
-    background-image: linear-gradient(transparent, rgba(21, 114, 183, .3));
+    background-image: linear-gradient(transparent, rgba(21, 114, 183, .25));
 }
