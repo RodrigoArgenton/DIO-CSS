@@ -15,4 +15,4 @@ de estilo para que o resultado da estilização funcione.
 [Link do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6) contendo o protótipo do desafio para
 que você possa se basear.
 
-##[Link do resultado final do projeto](https://rodrigoargenton.github.io/DIO-CSS-desafio1-landingpage/)
+[Link do resultado final do projeto](https://rodrigoargenton.github.io/DIO-CSS-desafio1-landingpage/)
